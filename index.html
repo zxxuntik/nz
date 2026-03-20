@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NURSULTAN — Найкращий клієнт</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Nunito:wght@400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Falling Leaves Canvas -->
+  <canvas id="leavesCanvas"></canvas>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="nav-logo">NURSULTAN</div>
+    <div class="nav-lang">
+      <span class="flag">🇺🇦</span> Українська <span class="arrow">▾</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#" class="nav-link">Підтримка</a>
+      <a href="#" class="nav-link"><span class="icon">🔒</span> Купити</a>
+      <a href="#" class="btn-auth"><span>→|</span> Авторизація</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1 class="hero-title">Про нас</h1>
+      <p class="hero-desc">
+        Ми надаємо вам найкращий клієнт для комфортної гри,<br/>
+        який подарує вам найкращі враження від гри.
+      </p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary"><span>🔒</span> Купити</a>
+        <a href="#" class="btn-secondary">Детальніше <span>➔</span></a>
+      </div>
+    </div>
+
+    <!-- Floating UI Cards (decorative) -->
+    <div class="hero-visual">
+      <div class="ui-card card-top">
+        <div class="card-label">Air Place</div>
+        <div class="card-sub">Дистанція ————— 4.5</div>
+        <div class="card-bar"></div>
+      </div>
+      <div class="ui-card card-mid">
+        <div class="card-label">Ambience</div>
+        <div class="card-tags">
+          <span class="tag active">Небо</span>
+          <span class="tag">Не міняти</span>
+        </div>
+        <div class="card-row">
+          <span>Тип 3</span><span>Тип 1</span><span>Тип 2</span>
+        </div>
+      </div>
+      <div class="ui-card card-bot">
+        <div class="card-label">Яскравість</div>
+        <div class="card-row-time">
+          <span>Ранок</span><span>День</span><span class="active">Вечір</span><span>Ніч</span>
+        </div>
+        <button class="card-btn">Застосувати</button>
+      </div>
+      <div class="minecraft-glow"></div>
+    </div>
+  </section>
+
+  <script src="leaves.js"></script>
+</body>
+</html>
